@@ -961,4 +961,27 @@ section {
   }
 }
 
+.contact-item {
+  text-align: center; /* Centrar el contenido del contenedor */
+}
+
+.whatsapp-img {
+  max-width: 100%; /* Ocupa hasta el 100% del ancho del contenedor */
+  height: auto; /* Mantiene la proporción */
+  display: block; /* Hace que la imagen sea un bloque para usar margin auto */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  border-radius: 50px; /* Redondea las esquinas de la imagen */
+}
+
+/* Media query para controlar el tamaño en diferentes dispositivos */
+@media (min-width: 768px) {
+  .whatsapp-img {
+      max-width: 300px; /* Ancho máximo de la imagen en pantallas más grandes */
+  }
+}
+
+
+
+
+
 /*# sourceMappingURL=styles.css.map */
